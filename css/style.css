@@ -193,26 +193,6 @@ h6 {
   display: none;
 }
 
-#intro .carousel-item {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#intro .carousel-item::before {
-  content: '';
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
 #intro .intro-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -233,8 +213,7 @@ h6 {
   right: 0;
 }
 
-#intro .intro-background img {
-  background-repeat: no-repeat;
+#intro .intro-background {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -256,25 +235,6 @@ h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
-}
-
-#intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  background: #18d26e;
-}
-
-#intro .btn-get-started:hover {
-  background: #fff;
-  color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -859,6 +819,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #18d26e;
 }
 
+#facts .counters::after span{
+  content: '%'
+}
+
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
@@ -871,6 +835,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding-top: 30px;
 }
+
+#percent::after { content: "%"; }
+
+
 
 /* Portfolio Section
 --------------------------------*/
