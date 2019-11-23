@@ -1531,3 +1531,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 15px;
   }
 }
+
+/* Overriding Lightbox's CSS */
+
+.lb-data .lb-caption {
+  font-size: 20px !important;
+}
