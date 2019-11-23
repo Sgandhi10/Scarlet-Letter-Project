@@ -218,6 +218,7 @@
 
   lightbox.option({
     'maxHeight': 500,
+    'albumLabel': "Effect %1 of %2"
   })
 
 })(jQuery);
