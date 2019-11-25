@@ -1,0 +1,7 @@
+1. Fix the low qual images
+2. Dim the intro image (makes it look nicer)
+
+Optional: 
+3. Change color accents
+4. Change the default image assets
+5. Change the team photos
