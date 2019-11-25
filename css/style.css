@@ -184,6 +184,20 @@ h6 {
   font-size: 3rem;
 }
 
+/* This is if we want to add a line under the Title */
+/*
+#intro .intro-title::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 8rem;
+  height: 1px;
+  background: #fff;
+  bottom: 0rem;
+  left: calc(50% - 4rem);
+}
+*/
+
 #intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
